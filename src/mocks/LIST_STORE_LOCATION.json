@@ -1,0 +1,445 @@
+{
+	"name": "Klever store",
+	"storeArray": [
+		{
+			"id": 1,
+			"name": "Klever Fruit 50 Lý Thường Kiệt",
+			"address": "50 Lý Thường Kiệt, Phường Trần Hưng Đạo, Quận Hoàn Kiếm, Hà Nội",
+			"location": {
+				"lat": 21.0216838,
+				"lng": 105.8565723
+			},
+			"district": "Hoàn Kiếm"
+		},
+		{
+			"id": 2,
+			"name": "Klever Fruit 06 Lý Thường Kiệt",
+			"address": "06 Lý Thường Kiệt, Phường Trần Hưng Đạo, Quận Hoàn Kiếm, Hà Nội",
+			"location": {
+				"lat": 21.0217326,
+				"lng": 105.8562517
+			},
+			"district": "Hoàn Kiếm"
+		},
+		{
+			"id": 3,
+			"name": "Klever Fruit 71AB Hai Bà Trưng",
+			"address": "71AB Hai Bà Trưng, Phường Cửa Nam, Quận Hoàn Kiếm, Hà Nội",
+			"location": {
+				"lat": 21.0271436,
+				"lng": 105.8235016
+			},
+			"district": "Hoàn Kiếm"
+		},
+		{
+			"id": 4,
+			"name": "Klever Fruit 11A Tông Đản",
+			"address": "11A Tông Đản, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội.",
+			"location": {
+				"lat": 21.0277027,
+				"lng": 105.8548834
+			},
+			"district": "Hoàn Kiếm"
+		},
+		{
+			"id": 5,
+			"name": "Klever Fruit 21B Phan Đình Phùng",
+			"address": "21B Phan Đình Phùng, Phường Quán Thánh, Quận Ba Đình, Hà Nội",
+			"location": {
+				"lat": 21.040051,
+				"lng": 105.8422491
+			},
+			"district": "Ba Đình"
+		},
+		{
+			"id": 6,
+			"name": "Klever Fruit 31B Phan Đình Phùng",
+			"address": "31B Phan Đình Phùng, Phường Quán Thánh, Quận Ba Đình, Hà Nội",
+			"location": {
+				"lat": 21.0402056,
+				"lng": 105.8414349
+			},
+			"district": "Ba Đình"
+		},
+		{
+			"id": 7,
+			"name": "Klever Fruit 12H Láng Hạ",
+			"address": "12H Láng Hạ, Phường Thành Công, Quận Ba Đình, Hà Nội",
+			"location": {
+				"lat": 21.0262666,
+				"lng": 105.8180989
+			},
+			"district": "Ba Đình"
+		},
+		{
+			"id": 8,
+			"name": "Klever Fruit 160 Kim Mã",
+			"address": "160 Kim Mã, Phường Kim Mã, Quận Ba Đình, Hà Nội",
+			"location": {
+				"lat": 21.0320287,
+				"lng": 105.8232644
+			},
+			"district": "Ba Đình"
+		},
+		{
+			"id": 9,
+			"name": "Klever Fruit 32B Nguyễn Chí Thanh",
+			"address": "32B Nguyễn Chí Thanh, Phuờng Ngọc Khánh, Quận Ba Đình, Hà Nội",
+			"location": {
+				"lat": 21.0262311,
+				"lng": 105.7925394
+			},
+			"district": "Ba Đình"
+		},
+		{
+			"id": 10,
+			"name": "Klever Fruit 32A Nguyễn Chí Thanh",
+			"address": "32A Nguyễn Chí Thanh, Phuờng Ngọc Khánh, Quận Ba Đình, Hà Nội",
+			"location": {
+				"lat": 21.0262311,
+				"lng": 105.7925394
+			},
+			"district": "Ba Đình"
+		},
+		{
+			"id": 11,
+			"name": "Klever Fruit 28 Trần Duy Hưng",
+			"address": "28 Trần Duy Hưng, Phường Trung Hoà, Quận Cầu Giấy, Hà Nội",
+			"location": {
+				"lat": 21.0203131,
+				"lng": 105.7810576
+			},
+			"district": "Cầu Giấy"
+		},
+		{
+			"id": 12,
+			"name": "Klever Fruit 174 Trần Duy Hưng",
+			"address": "174 Trần Duy Hưng, Phường Trung Hoà, Quận Cầu Giấy, Hà Nội",
+			"location": {
+				"lat": 21.0096482,
+				"lng": 105.7953589
+			},
+			"district": "Cầu Giấy"
+		},
+		{
+			"id": 13,
+			"name": "Klever Fruit 370 Cầu Giấy",
+			"address": "370 Cầu Giấy, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội.",
+			"location": {
+				"lat": 21.0352008,
+				"lng": 105.7913304
+			},
+			"district": "Cầu Giấy"
+		},
+		{
+			"id": 14,
+			"name": "Klever Fruit 68 Trần Thái Tông",
+			"address": "68 Trần Thái Tông, Phường Dịch Vọng, Quận Cầu Giấy, Hà Nội",
+			"location": {
+				"lat": 21.0326311,
+				"lng": 105.7880689
+			},
+			"district": "Cầu Giấy"
+		},
+		{
+			"id": 15,
+			"name": "Klever Fruit 253 Lạc Long Quân",
+			"address": "253 Lạc Long Quân, Phường Nghĩa Đô, Quận Cầu Giấy, Hà Nội",
+			"location": {
+				"lat": 21.0546308,
+				"lng": 105.8080124
+			},
+			"district": "Cầu Giấy"
+		},
+		{
+			"id": 16,
+			"name": "Klever Fruit 04 Nguyễn Khánh Toàn",
+			"address": "4 Nguyễn Khánh Toàn, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội",
+			"location": {
+				"lat": 21.0391992,
+				"lng": 105.7983229
+			},
+			"district": "Cầu Giấy"
+		},
+		{
+			"id": 17,
+			"name": "Klever Fruit 46 Duy Tân",
+			"address": "46 Duy Tân,Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội",
+			"location": {
+				"lat": 21.0309485,
+				"lng": 105.7822059
+			},
+			"district": "Cầu Giấy"
+		},
+		{
+			"id": 18,
+			"name": "Klever Fruit 52 Nguyễn Chánh",
+			"address": "52 Nguyễn Chánh, Phường Trung Hoà, Quận Cầu Giấy, Hà Nội",
+			"location": {
+				"lat": 21.0094075,
+				"lng": 105.7920383
+			},
+			"district": "Cầu Giấy"
+		},
+		{
+			"id": 19,
+			"name": "Klever Fruit 79 Trần Đăng Ninh",
+			"address": "79 Trần Đăng Ninh, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội",
+			"location": {
+				"lat": 21.0378304,
+				"lng": 105.7907633
+			},
+			"district": "Cầu Giấy"
+		},
+		{
+			"id": 20,
+			"name": "Klever Fruit 260 Tôn Đức Thắng",
+			"address": "260 Tôn Đức Thắng,Phường Hàng Bột, Quận Đống Đa, Hà Nội",
+			"location": {
+				"lat": 21.0202656,
+				"lng": 105.828426
+			},
+			"district": "Đống Đa"
+		},
+		{
+			"id": 21,
+			"name": "Klever Fruit 111B6 Phạm Ngọc Thạch",
+			"address": "111B Phạm Ngọc Thạch, Phường Trung Tự ,Quận Đống Đa, Hà Nội",
+			"location": {
+				"lat": 21.0091981,
+				"lng": 105.8319964
+			},
+			"district": "Đống Đa"
+		},
+		{
+			"id": 22,
+			"name": "Klever Fruit 193 Xã Đàn - Đống Đa",
+			"address": "193 Xã Đàn, Phường Nam Đồng,Quận Đống Đa, Hà Nội",
+			"location": {
+				"lat": 21.0153925,
+				"lng": 105.8301678
+			},
+			"district": "Đống Đa"
+		},
+		{
+			"id": 23,
+			"name": "Klever Fruit 78 Láng Hạ",
+			"address": "78 Láng Hạ,Phường Láng Hạ, ,Quận Đống Đa, Hà Nội",
+			"location": {
+				"lat": 21.0124478,
+				"lng": 105.7929188
+			},
+			"district": "Đống Đa"
+		},
+		{
+			"id": 24,
+			"name": "Klever Fruit 292 Tây Sơn",
+			"address": "292 Tây Sơn,Phường Ngã Tư Sở, Quận Đống Đa, Hà Nội",
+			"location": {
+				"lat": 21.007032,
+				"lng": 105.8203368
+			},
+			"district": "Đống Đa"
+		},
+		{
+			"id": 25,
+			"name": "Klever Fruit 63 Yên Lãng",
+			"address": "63 Yên Lãng (Ngã tư Yên Lãng - Thái Thịnh) ,Phường Trung Liệt, Quận Đống Đa, Hà Nội",
+			"location": {
+				"lat": 21.012048,
+				"lng": 105.8149221
+			},
+			"district": "Đống Đa"
+		},
+		{
+			"id": 26,
+			"name": "Klever Fruit 41 Lạc Trung",
+			"address": "41 Lạc Trung,Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",
+			"location": {
+				"lat": 21.0029361,
+				"lng": 105.8635522
+			},
+			"district": "Hai Bà Trưng"
+		},
+		{
+			"id": 27,
+			"name": "Klever Fruit 276 Kim Ngưu",
+			"address": "276 Kim Ngưu, Phường Quỳnh Mai,Quận Hai Bà Trưng, Hà Nội",
+			"location": {
+				"lat": 21.0009624,
+				"lng": 105.8604755
+			},
+			"district": "Hai Bà Trưng"
+		},
+		{
+			"id": 28,
+			"name": "Klever Fruit 252 Minh Khai",
+			"address": "252 Minh Khai, Phường Minh Khai,Quận Hai Bà Trưng, Hà Nội",
+			"location": {
+				"lat": 20.9990689,
+				"lng": 105.8577314
+			},
+			"district": "Hai Bà Trưng"
+		},
+		{
+			"id": 29,
+			"name": "Klever Fruit 196 Bà Triệu",
+			"address": "196 Bà Triệu, Phường Nguyễn Du, Quận Hai Bà Trưng, Hà Nội",
+			"location": {
+				"lat": 21.0156809,
+				"lng": 105.8465453
+			},
+			"district": "Hai Bà Trưng"
+		},
+		{
+			"id": 30,
+			"name": "Klever Fruit 444 Bạch Mai",
+			"address": "444 Bạch Mai, Phường Trương Định, Quận Hai Bà Trưng, Hà Nội",
+			"location": {
+				"lat": 20.9983494,
+				"lng": 105.8490444
+			},
+			"district": "Hai Bà Trưng"
+		},
+		{
+			"id": 31,
+			"name": "Klever Fruit 214 Lò Đúc",
+			"address": "214 Lò Đúc, Phường Đống Mác, Quận Hai Bà Trưng, Hà Nội",
+			"location": {
+				"lat": 21.0105821,
+				"lng": 105.8572946
+			},
+			"district": "Hai Bà Trưng"
+		},
+		{
+			"id": 32,
+			"name": "Klever Fruit Times City",
+			"address": "Shop 04, P11 Khu đô thị Times City, 458 Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",
+			"location": {
+				"lat": 20.991456,
+				"lng": 105.8645744
+			},
+			"district": "Hai Bà Trưng"
+		},
+		{
+			"id": 33,
+			"name": "Klever Fruit 109 Nguyễn Trãi",
+			"address": "109 Nguyễn Trãi, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",
+			"location": {
+				"lat": 20.9994113,
+				"lng": 105.7762288
+			},
+			"district": "Thanh Xuân"
+		},
+		{
+			"id": 34,
+			"name": "Klever Fruit 306 Nguyễn Trãi",
+			"address": "306 Nguyễn Trãi, Phường Thượng Đình, Quận Thanh Xuân, Hà Nội",
+			"location": {
+				"lat": 20.9970557,
+				"lng": 105.8059422
+			},
+			"district": "Thanh Xuân"
+		},
+		{
+			"id": 35,
+			"name": "Klever Fruit 46 Nguyễn Thị Định",
+			"address": "46 Nguyễn Thị Định, Phường Trung Hoà, QuậnThanh Xuân, Hà Nội",
+			"location": {
+				"lat": 21.007376,
+				"lng": 105.8029191
+			},
+			"district": "Thanh Xuân"
+		},
+		{
+			"id": 36,
+			"name": "Klever Fruit 06 Nguyễn Xiển",
+			"address": "6 Đường Nguyễn Xiển, Phường Thanh Xuân Nam, Quận Thanh Xuân, Hà Nội",
+			"location": {
+				"lat": 20.9852451,
+				"lng": 105.7891824
+			},
+			"district": "Thanh Xuân"
+		},
+		{
+			"id": 37,
+			"name": "Klever Fruit 444 Nguyễn Trãi",
+			"address": "444 Nguyễn Trãi, Phường Trung Văn, Quận Nam Từ Liêm, Hà Nội",
+			"location": {
+				"lat": 20.9852845,
+				"lng": 105.7891824
+			},
+			"district": "Nam Từ Liêm"
+		},
+		{
+			"id": 38,
+			"name": "Klever Fruit 560H Nguyễn Văn Cừ",
+			"address": "560H Nguyễn Văn Cừ, Phường Gia Thụy, Quận Long Biên, Hà Nội",
+			"location": {
+				"lat": 21.0436596,
+				"lng": 105.8532755
+			},
+			"district": "Long Biên"
+		},
+		{
+			"id": 39,
+			"name": "Klever Fruit 182 Nguyễn Văn Cừ",
+			"address": "182 Nguyễn Văn Cừ,Phường Ngọc Lâm, Quận Long Biên, Hà Nội",
+			"location": {
+				"lat": 21.0436638,
+				"lng": 105.8674583
+			},
+			"district": "Long Biên"
+		},
+		{
+			"id": 40,
+			"name": "Klever Fruit Linh Đàm",
+			"address": "Kiot số 10, tầng 1, tòa nhà HH1B Linh Đàm , Phường Hòang Liệt , Quận Hoàng Mai, Hà Nội",
+			"location": {
+				"lat": 20.9645432,
+				"lng": 105.8235653
+			},
+			"district": "Hoàng Mai"
+		},
+		{
+			"id": 41,
+			"name": "Klever Fruit 381 Quang Trung",
+			"address": "381 Quang Trung,Phường Hà Cầu, Quận Hà Đông, Hà Nội",
+			"location": {
+				"lat": 20.964995,
+				"lng": 105.7658251
+			},
+			"district": "Hà Đông"
+		},
+		{
+			"id": 42,
+			"name": "Klever Fruit 240 Ngọc Lâm",
+			"address": "240 Ngọc Lâm, Phường Ngọc Lâm, Quận Long Biên, Hà Nội",
+			"location": {
+				"lat": 21.0467641,
+				"lng": 105.8670614
+			},
+			"district": "Long Biên"
+		},
+		{
+			"id": 43,
+			"name": "Klever Fruit S2.12 Vinhomes Ocean Park Gia Lâm",
+			"address": "Toà S2.1201SH20 - Vinhomes Ocean Park, xã Đa Tốn, huyện Gia Lâm, thành phố Hà Nội",
+			"location": {
+				"lat": 20.9914818,
+				"lng": 105.9431743
+			},
+			"district": "Gia Lâm"
+		},
+		{
+			"id": 44,
+			"name": "Klever Fruit T10 Times City",
+			"address": "Sảnh SO2, Tòa T10, Khu đô thị Times City, 458 Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội",
+			"location": {
+				"lat": 20.9920576,
+				"lng": 105.8665932
+			},
+			"district": "Hai Bà Trưng"
+		}
+	]
+}
