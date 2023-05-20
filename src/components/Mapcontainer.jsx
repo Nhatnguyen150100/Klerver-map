@@ -1,4 +1,4 @@
-import { GoogleMap , Marker, StandaloneSearchBox, useLoadScript } from '@react-google-maps/api';
+import { DirectionsService, GoogleMap , Marker, StandaloneSearchBox, useLoadScript } from '@react-google-maps/api';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { keyGoogleMap } from '../common/common.jsx';
@@ -6,6 +6,7 @@ import CurrentLocationButton from './CurrentLocationButton.jsx';
 import SearchBox from './SearchBox.jsx';
 import * as bootstrap from 'bootstrap';
 import LIST_STORE_LOCATION from '../mocks/LIST_STORE_LOCATION.json'
+import DirectionMap from './DirectionMap.jsx';
 
 const containerStyle = {
   width: '100%',
@@ -115,7 +116,8 @@ function MapContainer(props) {
   const [searchBox, setSearchBox] = useState(null);
   const [currentLocation, setCurrentLocation] = useState(null);
   const [userLocation, setUserLocation] = useState(null);
-  const [selectedStore,setSelectedStore] = useState(null);
+  const [selectedStore, setSelectedStore] = useState(null);
+  const [showDirection, setShowDirection] = useState(false);
 
   const informationModal = useRef()
   const inforModalRef = useRef()
@@ -213,6 +215,16 @@ function MapContainer(props) {
             />
           })
         }
+        {/* {
+          currentLocation && <button type='button' style={{marginTop:"80px",marginLeft:"10px",borderRadius:"50%"}} className='standout p-2 position-absolute start-0 top-0 btn btn-primary d-flex justify-content-center align-items-center' onClick={()=>setShowDirection(true)}>
+            <span className="material-symbols-outlined" style={{fontSize:"32px"}}>
+              directions
+            </span>
+          </button>
+        }
+        {
+          showDirection && <DirectionMap currentLocation={currentLocation.position} listStore={listStore} />
+        } */}
         <StandaloneSearchBox
           bounds={new window.google.maps.LatLngBounds(
             new window.google.maps.LatLng(8.5591, 102.1446),
@@ -230,7 +242,7 @@ function MapContainer(props) {
             setCurrentLocation(null)
           }}/>
         </StandaloneSearchBox>
-        <CurrentLocationButton userLocation={userLocation} onShowMyLocation={handleGetUserLocation} onRemoveMyLocation={()=>setUserLocation(null)}/>
+        <CurrentLocationButton userLocation={userLocation} onShowMyLocation={handleGetUserLocation} onRemoveMyLocation={()=>{setUserLocation(null);setShowDirection(false)}}/>
       </GoogleMap>
     }
     <div className="modal fade" tabIndex={-1} aria-hidden="true" ref={inforModalRef}>
