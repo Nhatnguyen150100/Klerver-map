@@ -100,12 +100,12 @@ const optionsMap = {
   ],
   mapTypeControl: false,
   streetViewControl: false,
-  zoomControlOptions: {
-    position:  window.google.maps.ControlPosition.TOP_RIGHT
-  },
-  fullscreenControlOptions: {
-    position:  window.google.maps.ControlPosition.BOTTOM_RIGHT
-  }
+  // zoomControlOptions: {
+  //   position:  window.google.maps.ControlPosition.TOP_RIGHT
+  // },
+  // fullscreenControlOptions: {
+  //   position:  window.google.maps.ControlPosition.BOTTOM_RIGHT
+  // }
 }
 
 function MapContainer(props) {
@@ -213,7 +213,7 @@ function MapContainer(props) {
             />
           })
         }
-        <StandaloneSearchBox
+        {/* <StandaloneSearchBox
           bounds={new window.google.maps.LatLngBounds(
             new window.google.maps.LatLng(8.5591, 102.1446),
             new window.google.maps.LatLng(23.3934, 109.4695)
@@ -229,7 +229,7 @@ function MapContainer(props) {
             }
             setCurrentLocation(null)
           }}/>
-        </StandaloneSearchBox>
+        </StandaloneSearchBox> */}
         <CurrentLocationButton userLocation={userLocation} onShowMyLocation={handleGetUserLocation} onRemoveMyLocation={()=>setUserLocation(null)}/>
       </GoogleMap>
     }
