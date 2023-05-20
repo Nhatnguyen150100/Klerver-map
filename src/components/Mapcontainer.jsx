@@ -100,12 +100,12 @@ const optionsMap = {
   ],
   mapTypeControl: false,
   streetViewControl: false,
-  // zoomControlOptions: {
-  //   position:  window.google.maps.ControlPosition.TOP_RIGHT
-  // },
-  // fullscreenControlOptions: {
-  //   position:  window.google.maps.ControlPosition.BOTTOM_RIGHT
-  // }
+  zoomControlOptions: {
+    position:  window.google.maps.ControlPosition.TOP_RIGHT
+  },
+  fullscreenControlOptions: {
+    position:  window.google.maps.ControlPosition.BOTTOM_RIGHT
+  }
 }
 
 function MapContainer(props) {
