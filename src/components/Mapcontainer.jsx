@@ -199,7 +199,7 @@ function MapContainer(props) {
           currentLocation && <Marker 
             icon={{
               url: '/assets/gif/search_location.gif',
-              scaledSize: new window.google.maps.Size(50, 80) // Kích thước của custom marker
+              scaledSize: new window.google.maps.Size(50, 80)
             }}
             position={currentLocation?.position}
           />
@@ -208,7 +208,7 @@ function MapContainer(props) {
           userLocation && <Marker
             icon={{
               url: '/assets/gif/current_location.gif',
-              scaledSize: new window.google.maps.Size(50, 80) // Kích thước của custom marker
+              scaledSize: new window.google.maps.Size(50, 80)
             }}
             title='Vị trí hiện tại'
             position={userLocation}
@@ -221,7 +221,7 @@ function MapContainer(props) {
               position={store.location}
               icon={{
                 url: '/assets/gif/store_location.gif',
-                scaledSize: new window.google.maps.Size(45, 45) // Kích thước của custom marker
+                scaledSize: new window.google.maps.Size(45, 45)
               }}
               onMouseDown={()=>{setSelectedStore(store);informationModal.current.show()}}
             />
@@ -273,7 +273,7 @@ function MapContainer(props) {
       <div className="modal-dialog modal-lg">
         <div className="modal-content">
           <div className="modal-header">
-            <h1 className="modal-title fs-5">Thông tin cửa hàng</h1>
+            <h1 className="modal-title fs-4 fw-bold default-color">Thông tin cửa hàng</h1>
             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={()=>{setSelectedStore(null);informationModal.current.hide()}}></button>
           </div>
           <div className="modal-body">
