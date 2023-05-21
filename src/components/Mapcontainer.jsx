@@ -14,8 +14,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 21.030109,
-  lng: 105.825548
+  lat: 21.021300,
+  lng: 105.836518
 };
 
 const optionsMap = {
@@ -130,7 +130,10 @@ function MapContainer(props) {
     const listStoreLocation = LIST_STORE_LOCATION.storeArray
     const map = mapRef.current;
     if(showListStore==='all'){
-      if(map) map.setZoom(13)
+      if(map){
+        map.setZoom(13);
+        map.setCenter(center)
+      }
       return listStoreLocation
     } 
     else if(!showListStore) return []

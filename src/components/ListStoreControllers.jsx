@@ -51,6 +51,12 @@ export default function ListStoreControllers(props){
           <button data-bs-dismiss="offcanvas" aria-label="Close" className={`btn ${showListStore==='Gia Lâm'?'btn-primary':'btn-outline-secondary'} w-100 mt-2`} disabled={showListStore==='Gia Lâm'} onClick={()=>dispatch(setShowListStore('Gia Lâm'))}>
             Huyện Gia Lâm
           </button>
+          <button data-bs-dismiss="offcanvas" aria-label="Close" className={`btn ${showListStore==='Hà Đông'?'btn-primary':'btn-outline-secondary'} w-100 mt-2`} disabled={showListStore==='Hà Đông'} onClick={()=>dispatch(setShowListStore('Hà Đông'))}>
+            Quận Hà Đông
+          </button>
+          <button data-bs-dismiss="offcanvas" aria-label="Close" className={`btn ${showListStore==='Nam Từ Liêm'?'btn-primary':'btn-outline-secondary'} w-100 mt-2`} disabled={showListStore==='Nam Từ Liêm'} onClick={()=>dispatch(setShowListStore('Nam Từ Liêm'))}>
+            Quận Nam Từ Liêm
+          </button>
         </div>
         {
           showListStore && <button className={`btn btn-danger w-100 mt-4`} onClick={()=>dispatch(setShowListStore(false))} data-bs-dismiss="offcanvas" aria-label="Close">

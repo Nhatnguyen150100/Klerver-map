@@ -276,8 +276,8 @@
 			"name": "Klever Fruit 252 Minh Khai",
 			"address": "252 Minh Khai, Phường Minh Khai,Quận Hai Bà Trưng, Hà Nội",
 			"location": {
-				"lat": 20.9990689,
-				"lng": 105.8577314
+				"lat": 20.9950557,
+				"lng": 105.8557471
 			},
 			"district": "Hai Bà Trưng"
 		},
@@ -438,6 +438,16 @@
 			"location": {
 				"lat": 20.9920576,
 				"lng": 105.8665932
+			},
+			"district": "Hai Bà Trưng"
+		},
+		{
+			"id": 45,
+			"name": "Klever Fruit 119 Minh Khai",
+			"address": "119 Minh Khai (Ngõ Hòa Bình 6), Phường Minh Khai,Quận Hai Bà Trưng, Hà Nội",
+			"location": {
+				"lat": 20.9955941,
+				"lng": 105.8530358
 			},
 			"district": "Hai Bà Trưng"
 		}
