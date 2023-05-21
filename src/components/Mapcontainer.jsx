@@ -189,6 +189,10 @@ function MapContainer(props) {
       >
         {
           currentLocation && <Marker 
+            icon={{
+              url: '/assets/gif/search_location.gif',
+              scaledSize: new window.google.maps.Size(50, 80) // Kích thước của custom marker
+            }}
             position={currentLocation?.position}
           />
         }

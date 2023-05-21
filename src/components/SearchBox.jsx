@@ -5,8 +5,8 @@ function SearchBox(props) {
   return (
     <div className='d-flex shadow flex-row justify-content-center align-items-center position-absolute top-0 start-0 p-1 bg-white mt-1 ms-1' style={{borderRadius:"15px"}}>
       <div className='d-flex flex-column justify-content-center align-items-center mx-3 my-1'>
-        <img src='/assets/icons/icon.png' alt='logo klever' style={{height:"15px"}}/>
-        <span className='fw-bold text-uppercase' style={{color:"#91298c",fontSize:"13px"}}>
+        <img src='/assets/icons/icon.png' alt='logo klever' style={{height:"18px"}}/>
+        <span className='fw-bold text-uppercase' style={{color:"#91298c",fontSize:"16px"}}>
           klever fruits
         </span>
       </div>
@@ -23,8 +23,8 @@ function SearchBox(props) {
           className='form-control border-0'
           style={{
             outlineStyle:'none',
-            width: `250px`,
-            height: `32px`,
+            width: `350px`,
+            height: `40px`,
             padding: `0 12px`,
             borderRadius: `10px`,
             fontSize: `14px`,
@@ -34,7 +34,7 @@ function SearchBox(props) {
         />
         {
           // eslint-disable-next-line react/prop-types
-          props.currentLocation && <button className='btn btn-outline-secondary p-0 border-0 px-1' type='button' onClick={props.onRemoveCurrentLocation}>
+          props.currentLocation && <button className='btn btn-outline-danger p-0 border-0 me-1' type='button' style={{borderRadius:"25%"}} onClick={props.onRemoveCurrentLocation}>
             <span className="material-symbols-outlined mt-1">
               cancel
             </span>

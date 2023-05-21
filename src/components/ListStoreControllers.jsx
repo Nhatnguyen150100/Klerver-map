@@ -7,11 +7,11 @@ export default function ListStoreControllers(props){
   const showListStore = useSelector(state => state.general.showListStore)
 
   return <>
-    <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasStore" aria-controls="offcanvasStore" type='button' className='btn btn-primary d-flex justify-content-center align-items-center position-absolute start-0 bottom-0' style={{borderRadius:"15px",marginBottom:"20px",marginLeft:"20px"}}>
-      <span className="material-symbols-outlined me-2" style={{fontSize:"22px"}}>
+    <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasStore" aria-controls="offcanvasStore" type='button' className='btn btn-primary d-flex justify-content-center align-items-center position-absolute start-0 bottom-0' style={{borderRadius:"15px",marginBottom:"25px",marginLeft:"25px"}}>
+      <span className="material-symbols-outlined me-2" style={{fontSize:"25px"}}>
         list
       </span>
-      <span className='fw-bold' style={{fontSize:"15px"}}>Danh sách của hàng</span>
+      <span className='fw-bold' style={{fontSize:"20px"}}>Danh sách của hàng</span>
     </button>
     <div className="offcanvas offcanvas-start" data-bs-backdrop="static" id="offcanvasStore" aria-labelledby="offcanvasStoreLabel">
       <div className="offcanvas-header">
@@ -44,6 +44,12 @@ export default function ListStoreControllers(props){
           </button>
           <button data-bs-dismiss="offcanvas" aria-label="Close" className={`btn ${showListStore==='Hoàng Mai'?'btn-primary':'btn-outline-secondary'} w-100 mt-2`} disabled={showListStore==='Hoàng Mai'} onClick={()=>dispatch(setShowListStore('Hoàng Mai'))}>
             Quận Hoàng Mai
+          </button>
+          <button data-bs-dismiss="offcanvas" aria-label="Close" className={`btn ${showListStore==='Long Biên'?'btn-primary':'btn-outline-secondary'} w-100 mt-2`} disabled={showListStore==='Long Biên'} onClick={()=>dispatch(setShowListStore('Long Biên'))}>
+            Quận Long Biên
+          </button>
+          <button data-bs-dismiss="offcanvas" aria-label="Close" className={`btn ${showListStore==='Gia Lâm'?'btn-primary':'btn-outline-secondary'} w-100 mt-2`} disabled={showListStore==='Gia Lâm'} onClick={()=>dispatch(setShowListStore('Gia Lâm'))}>
+            Huyện Gia Lâm
           </button>
         </div>
         {
