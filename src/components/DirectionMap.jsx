@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 
 // eslint-disable-next-line react/prop-types, react-refresh/only-export-components
 const DirectionMap = ({currentLocation, listStore}) => {
-  console.log("🚀 ~ file: DirectionMap.jsx:6 ~ DirectionMap ~ {currentLocation, listStore}:", {currentLocation, listStore})
   const [storeNearest, setStoreNearest] = useState();
 
   const calculateDistances = async () => {

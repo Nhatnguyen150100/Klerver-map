@@ -128,10 +128,18 @@ function MapContainer(props) {
 
   const listStore = useMemo(()=>{
     const listStoreLocation = LIST_STORE_LOCATION.storeArray
-    if(showListStore==='all') return listStoreLocation
+    const map = mapRef.current;
+    if(showListStore==='all'){
+      map.setZoom(13);
+      return listStoreLocation
+    } 
     else if(!showListStore) return []
     else{
       const result = listStoreLocation.filter(store => store.district === showListStore);
+      if(map){
+        map.setZoom(14);
+        map.setCenter(result[0].location)
+      }
       return result
     }
   },[showListStore])
@@ -162,7 +170,7 @@ function MapContainer(props) {
       })
     }
   }
-
+  
   const handleGetUserLocation = () => {
     navigator.geolocation.getCurrentPosition(position => {
       const { latitude, longitude } = position.coords;
@@ -218,6 +226,18 @@ function MapContainer(props) {
               onMouseDown={()=>{setSelectedStore(store);informationModal.current.show()}}
             />
           })
+        }
+        {
+          listStore.length > 0 && <div className='position-absolute start-0 top-0 bg-white p-3 d-flex flex-column justify-content-center align-items-start ms-1' style={{marginTop:"70px",borderRadius:"15px"}}>
+            <div className='d-flex justify-content-center align-items-center'>
+              <span className='default-color fw-bold' style={{fontSize:"16px"}}>Số cửa hàng được hiển thị:</span>
+              <span className='text-primary fw-bold ms-2' style={{fontSize:"16px"}}>{listStore.length}</span>
+            </div>
+            <div className='d-flex justify-content-center align-items-center'>
+              <span className='default-color fw-bold' style={{fontSize:"16px"}}>Tại:</span>
+              <span className='text-primary fw-bold ms-2' style={{fontSize:"16px"}}>{showListStore==='all'?'Thành phố Hà Nội':`Quận ${showListStore}`}</span>
+            </div>
+          </div>
         }
         {/* {
           currentLocation && <button type='button' style={{marginTop:"80px",marginLeft:"10px",borderRadius:"50%"}} className='standout p-2 position-absolute start-0 top-0 btn btn-primary d-flex justify-content-center align-items-center' onClick={()=>setShowDirection(true)}>
