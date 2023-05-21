@@ -8,10 +8,10 @@ export default function ListStoreControllers(props){
 
   return <>
     <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasStore" aria-controls="offcanvasStore" type='button' className='btn btn-primary d-flex justify-content-center align-items-center position-absolute start-0 bottom-0' style={{borderRadius:"15px",marginBottom:"25px",marginLeft:"25px"}}>
-      <span className="material-symbols-outlined me-2" style={{fontSize:"25px"}}>
+      <span className="material-symbols-outlined me-2" style={{fontSize:"22px"}}>
         list
       </span>
-      <span className='fw-bold' style={{fontSize:"20px"}}>Danh sách của hàng</span>
+      <span className='fw-bold' style={{fontSize:"17px"}}>Danh sách của hàng</span>
     </button>
     <div className="offcanvas offcanvas-start" data-bs-backdrop="static" id="offcanvasStore" aria-labelledby="offcanvasStoreLabel">
       <div className="offcanvas-header">
