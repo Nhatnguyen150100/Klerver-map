@@ -130,7 +130,7 @@ function MapContainer(props) {
     const listStoreLocation = LIST_STORE_LOCATION.storeArray
     const map = mapRef.current;
     if(showListStore==='all'){
-      map.setZoom(13);
+      if(map) map.setZoom(13)
       return listStoreLocation
     } 
     else if(!showListStore) return []
