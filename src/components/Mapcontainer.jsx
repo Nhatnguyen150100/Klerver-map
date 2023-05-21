@@ -231,7 +231,7 @@ function MapContainer(props) {
           listStore.length > 0 && <div className='position-absolute start-0 top-0 bg-white p-3 d-flex flex-column justify-content-center align-items-start ms-1' style={{marginTop:"70px",borderRadius:"15px"}}>
             <div className='d-flex justify-content-center align-items-center'>
               <span className='default-color fw-bold' style={{fontSize:"16px"}}>Số cửa hàng được hiển thị:</span>
-              <span className='text-primary fw-bold ms-2' style={{fontSize:"16px"}}>{listStore.length}</span>
+              <span className='text-primary fw-bold ms-2' style={{fontSize:"16px"}}>{listStore.length} cửa hàng</span>
             </div>
             <div className='d-flex justify-content-center align-items-center'>
               <span className='default-color fw-bold' style={{fontSize:"16px"}}>Tại:</span>
